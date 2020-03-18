@@ -5,7 +5,7 @@ gem 'sinatra'
 gem 'sinatra-contrib', require: false
 gem 'sinatra-initializers'
 gem 'puma'
-gem 'rake'
+gem 'rake', ">= 12.3.3"
 gem 'redis'
 gem 'pry'
 
