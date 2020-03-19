@@ -59,7 +59,7 @@ class Bowling
   end
 
   def load_rolls
-    REDIS.lrange(game_id, 0, 10)
+    REDIS.lrange(game_id, 0, 11)
   end
 
   def save_roll(value)
