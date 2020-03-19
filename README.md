@@ -4,8 +4,8 @@ This is my implementation of [Uncle Bob’s bowling game kata](http://butunclebo
 
 ## Actions
 
-Api provide the following actions:
-- post `/game` - Starts new game, returns `game_id`.
+Api provides the following actions:
+- post `/game` - Starts a new game, returns `game_id`.
 - post `/roll` - Input the number of `pins` knocked down by ball in current game and returns `200`.
 - get `/score` - Output the current game score (which consists of the score for each frame and total score).
 
